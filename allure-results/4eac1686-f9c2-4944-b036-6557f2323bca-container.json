@@ -1,0 +1,1 @@
+{"uuid":"4eac1686-f9c2-4944-b036-6557f2323bca","name":"AssetifyDashboardSettings.setup","children":["613ea742-6d9d-4bd6-8175-f9520aaaf7ff"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1748584772241,"stop":1748584773599}],"afters":[],"start":1748584772241,"stop":1748584773599}

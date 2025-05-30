@@ -1,0 +1,1 @@
+{"uuid":"5d721e33-232c-44e5-93d0-a44fbae7463d","name":"AssetifySignup.setup","children":["621318f2-1455-4b6b-90a8-b346cf8cb0ca"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1748584748817,"stop":1748584750251}],"afters":[],"start":1748584748817,"stop":1748584750251}
