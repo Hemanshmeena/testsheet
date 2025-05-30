@@ -1,0 +1,1 @@
+{"uuid":"37bc0231-2916-4627-9501-f955ba0db1a1","name":"MetaMaskAutomation.setup","children":["0c0b7e12-99cf-41e7-9b38-0f9c13a4b7d5"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1747311273611,"stop":1747311276561}],"afters":[],"start":1747311273611,"stop":1747311276561}

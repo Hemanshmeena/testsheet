@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-12T16:38:20 IST" name="Default Suite" finished-at="2025-05-12T16:38:32 IST" duration-ms="12136">
+    <groups>
+    </groups>
+    <test started-at="2025-05-12T16:38:20 IST" name="AssetifyTestSheet" finished-at="2025-05-12T16:38:32 IST" duration-ms="12136">
+      <class name="AssetifyLogin">
+        <test-method is-config="true" signature="setup()[pri:0, instance:AssetifyLogin@740fb309]" started-at="2025-05-12T16:38:20 IST" name="setup" finished-at="2025-05-12T16:38:22 IST" duration-ms="2236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testInvalidEmailFormat()[pri:1, instance:AssetifyLogin@740fb309]" started-at="2025-05-12T16:38:23 IST" name="testInvalidEmailFormat" finished-at="2025-05-12T16:38:23 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidEmailFormat -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:AssetifyLogin@740fb309]" started-at="2025-05-12T16:38:23 IST" name="teardown" finished-at="2025-05-12T16:38:23 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:AssetifyLogin@740fb309]" started-at="2025-05-12T16:38:23 IST" name="setup" finished-at="2025-05-12T16:38:25 IST" duration-ms="1658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="forgetpassword()[pri:2, instance:AssetifyLogin@740fb309]" started-at="2025-05-12T16:38:25 IST" name="forgetpassword" finished-at="2025-05-12T16:38:25 IST" duration-ms="140" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found in the current frame
+  (Session info: chrome=136.0.7103.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e64eda23e82582c38973a8703ff48873, sendKeysToElement {value=[Ljava.lang.CharSequence;@4525d1d3, id=f.53C99AF2C34E985F39DF9AEAE9685CC8.d.313B26EAC480CC9248CD18A504D4BA17.e.8}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\techy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49940}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49940/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e64eda23e82582c38973a8703ff48873)] -> xpath: //*[@id="root"]/div/div/form/div/div/div]
+Session ID: e64eda23e82582c38973a8703ff48873]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=136.0.7103.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e64eda23e82582c38973a8703ff48873, sendKeysToElement {value=[Ljava.lang.CharSequence;@4525d1d3, id=f.53C99AF2C34E985F39DF9AEAE9685CC8.d.313B26EAC480CC9248CD18A504D4BA17.e.8}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\techy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49940}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49940/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e64eda23e82582c38973a8703ff48873)] -> xpath: //*[@id="root"]/div/div/form/div/div/div]
+Session ID: e64eda23e82582c38973a8703ff48873
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+at AssetifyLogin.forgetpassword(AssetifyLogin.java:46)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgetpassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:AssetifyLogin@740fb309]" started-at="2025-05-12T16:38:25 IST" name="teardown" finished-at="2025-05-12T16:38:25 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:AssetifyLogin@740fb309]" started-at="2025-05-12T16:38:25 IST" name="setup" finished-at="2025-05-12T16:38:26 IST" duration-ms="1420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testValidEmailFormat()[pri:2, instance:AssetifyLogin@740fb309]" started-at="2025-05-12T16:38:26 IST" name="testValidEmailFormat" finished-at="2025-05-12T16:38:27 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidEmailFormat -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:AssetifyLogin@740fb309]" started-at="2025-05-12T16:38:27 IST" name="teardown" finished-at="2025-05-12T16:38:27 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:AssetifyLogin@740fb309]" started-at="2025-05-12T16:38:27 IST" name="setup" finished-at="2025-05-12T16:38:28 IST" duration-ms="1057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPasswordTooShort()[pri:3, instance:AssetifyLogin@740fb309]" started-at="2025-05-12T16:38:28 IST" name="testPasswordTooShort" finished-at="2025-05-12T16:38:28 IST" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordTooShort -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:AssetifyLogin@740fb309]" started-at="2025-05-12T16:38:28 IST" name="teardown" finished-at="2025-05-12T16:38:29 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:AssetifyLogin@740fb309]" started-at="2025-05-12T16:38:29 IST" name="setup" finished-at="2025-05-12T16:38:30 IST" duration-ms="983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPasswordMinLength()[pri:4, instance:AssetifyLogin@740fb309]" started-at="2025-05-12T16:38:30 IST" name="testPasswordMinLength" finished-at="2025-05-12T16:38:30 IST" duration-ms="562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordMinLength -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:AssetifyLogin@740fb309]" started-at="2025-05-12T16:38:30 IST" name="teardown" finished-at="2025-05-12T16:38:30 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:AssetifyLogin@740fb309]" started-at="2025-05-12T16:38:30 IST" name="setup" finished-at="2025-05-12T16:38:31 IST" duration-ms="1045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:6, instance:AssetifyLogin@740fb309]" started-at="2025-05-12T16:38:31 IST" name="login" finished-at="2025-05-12T16:38:32 IST" duration-ms="802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:AssetifyLogin@740fb309]" started-at="2025-05-12T16:38:32 IST" name="teardown" finished-at="2025-05-12T16:38:32 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- AssetifyLogin -->
+    </test> <!-- AssetifyTestSheet -->
+  </suite> <!-- Default Suite -->
+</testng-results>

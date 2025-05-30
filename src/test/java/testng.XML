@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AssetifySuite" parallel="classes" thread-count="5">
+    <test name="LoginTests">
+        <classes>
+            <class name="AssetifySignup"/>
+            <class name="MetaMaskAutomation"/>
+            <class name="AssetifyDashboardSettings"/>
+            <class name="LoginTest"/>
+            <class name="AssetifyLogin"/>
+        </classes>
+    </test>
+</suite>
